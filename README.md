@@ -1,6 +1,6 @@
 # AI Backend Sprint: 12 Days to Intelligence
 
-Project Codename: Cosmonyx-AI-Core  
+Project Codename: AI-Backend-Sprint  
 Objective: Evolve from deterministic if else backends to probabilistic AI driven systems
 
 This repository is a living engineering log documenting a 12 day intensive sprint into AI augmented backend development.
@@ -73,11 +73,13 @@ Requirements
 
 Steps
 
+```
 git clone <repo-url>  
-cd cosmonyx-ai-core  
+cd ai-backend-sprint 
 python -m venv venv  
 source venv/bin/activate  
 pip install -r requirements.txt  
+```
 
 ---
 
