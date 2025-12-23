@@ -1,67 +1,100 @@
-#AI-Backend Sprint: 12 Days to Intelligence
+# AI Backend Sprint: 12 Days to Intelligence
 
-**Project Codename:** Cosmonyx-AI-Core  
-**Objective:** Evolve from deterministic if/else backends to probabilistic, AI-driven systems.
+Project Codename: Cosmonyx-AI-Core  
+Objective: Evolve from deterministic if else backends to probabilistic AI driven systems
 
-This repository is a **living engineering log** documenting a 12-day intensive sprint into AI-augmented backend development.
+This repository is a living engineering log documenting a 12 day intensive sprint into AI augmented backend development.
 
-The focus is on **production-minded AI systems**, not demos—designed for Python backend engineers working with Django, Flask, and AWS.
+The focus is on production minded AI systems designed for Python backend engineers working with Django Flask and AWS.
 
 ---
 
 ## Philosophy
 
-Traditional backends are predictable, rule-bound, and explicit.  
-AI backends are probabilistic, contextual, and adaptive.
+Traditional backends are predictable rule bound and explicit.  
+AI backends are probabilistic contextual and adaptive.
 
 This sprint explores how to:
 
-- Treat AI as **infrastructure**, not magic
-- Replace brittle logic trees with **model-mediated decisions**
-- Build systems that are **observable, testable, and deployable**
+- Treat AI as infrastructure not magic
+- Replace brittle logic trees with model mediated decisions
+- Build systems that are observable testable and deployable
 
 ---
 
 ## Tech Stack
 
-### Core Language
+### Language
 - Python 3.11+
 
-### AI & Model Access
+### AI and Models
 - OpenAI API
 - Anthropic
 - AWS Bedrock
 
-### Vector Infrastructure
-- ChromaDB (local development)
-- Pinecone (managed cloud)
+### Vector Databases
+- ChromaDB (local)
+- Pinecone (cloud)
 
 ### Backend Frameworks
-- Flask (microservices and AI gateways)
-- Django (full-stack and orchestration)
+- Flask (microservices)
+- Django (full stack)
 
 ### Infrastructure
-- Docker (multi-stage, minimal images)
-- Jenkins (CI/CD)
-- AWS (IAM, Bedrock, S3)
+- Docker
+- Jenkins
+- AWS
 
 ---
 
-## 12-Day Roadmap
+## 12 Day Roadmap
 
-| Day | Phase | Focus |
-|----:|------|-------|
-| 01 | Extraction | Structured outputs, JSON schemas, validation |
-| 02 | Agency | Function calling and tool execution |
-| 03 | Memory | Embeddings and vector database setup |
-| 04 | Retrieval | RAG (Retrieval-Augmented Generation) |
-| 05 | Optimization | Prompt design and context management |
-| 06 | Streaming | Token streaming and WebSocket handling |
-| 07 | AWS Integration | Bedrock migration and Boto3 |
-| 08 | Evaluation | Output testing and evaluation frameworks |
-| 09 | Orchestration | LangChain and LlamaIndex foundations |
-| 10 | Pipelines | Ingesting unstructured data (PDFs, Docs) |
-| 11 | Deployment | Dockerized AI services and CI/CD |
-| 12 | Final Build | Chat-with-My-Docs backend API |
+Day 01 - Structured outputs and JSON validation  
+Day 02 - Function calling and tool usage  
+Day 03 - Embeddings and vector storage  
+Day 04 - Retrieval Augmented Generation  
+Day 05 - Prompt optimization and context control  
+Day 06 - Streaming responses and WebSockets  
+Day 07 - AWS Bedrock integration  
+Day 08 - Evaluating AI outputs  
+Day 09 - LangChain and LlamaIndex  
+Day 10 - Data ingestion pipelines  
+Day 11 - Docker and CI CD  
+Day 12 - Chat with My Docs backend API  
 
 ---
+
+## Setup
+
+Requirements
+- Python 3.11
+- Docker
+- AWS credentials
+
+Steps
+
+git clone <repo-url>  
+cd cosmonyx-ai-core  
+python -m venv venv  
+source venv/bin/activate  
+pip install -r requirements.txt  
+
+---
+
+## Future Work
+
+- Domain specific RAG experiments
+- GPU optimized containers
+- Voice to text backend control
+- Policy driven AI agents
+
+---
+
+## Closing
+
+This repository is not about learning AI APIs.
+
+It is about understanding how AI changes backend architecture.
+
+Determinism was safety.  
+Probability is leverage.
