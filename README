@@ -1,33 +1,35 @@
-# 🌌 AI-Backend Sprint: 12 Days to Intelligence
+# AI-Backend Sprint: 12 Days to Intelligence
 
-> **Project Codename:** `Cosmonyx-AI-Core`  
-> **Objective:** Evolve from deterministic `if/else` backends to probabilistic, AI-driven systems.
+**Project Codename:** Cosmonyx-AI-Core  
+**Objective:** Evolve from deterministic if/else backends to probabilistic, AI-driven systems.
 
-This repository is a **living engineering log** documenting a 12-day intensive sprint into AI-augmented backend development.  
+This repository is a **living engineering log** documenting a 12-day intensive sprint into AI-augmented backend development.
+
 The focus is on **production-minded AI systems**, not demos—designed for Python backend engineers working with Django, Flask, and AWS.
 
 ---
 
-## 🧭 Philosophy
+## Philosophy
 
 Traditional backends are predictable, rule-bound, and explicit.  
 AI backends are probabilistic, contextual, and adaptive.
 
 This sprint explores how to:
+
 - Treat AI as **infrastructure**, not magic
 - Replace brittle logic trees with **model-mediated decisions**
 - Build systems that are **observable, testable, and deployable**
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Core Language
 - Python 3.11+
 
 ### AI & Model Access
-- OpenAI API  
-- Anthropic  
+- OpenAI API
+- Anthropic
 - AWS Bedrock
 
 ### Vector Infrastructure
@@ -35,8 +37,8 @@ This sprint explores how to:
 - Pinecone (managed cloud)
 
 ### Backend Frameworks
-- Flask (microservices & AI gateways)
-- Django (full-stack & orchestration)
+- Flask (microservices and AI gateways)
+- Django (full-stack and orchestration)
 
 ### Infrastructure
 - Docker (multi-stage, minimal images)
@@ -45,58 +47,21 @@ This sprint explores how to:
 
 ---
 
-## 🗺️ 12-Day Roadmap
+## 12-Day Roadmap
 
 | Day | Phase | Focus |
 |----:|------|-------|
-| **01** | Extraction | Structured outputs, JSON schemas, validation |
-| **02** | Agency | Function calling & tool execution |
-| **03** | Memory | Embeddings & vector database setup |
-| **04** | Retrieval | RAG (Retrieval-Augmented Generation) |
-| **05** | Optimization | Prompt design & context management |
-| **06** | Streaming | Token streaming & WebSocket handling |
-| **07** | AWS Integration | Bedrock migration & Boto3 |
-| **08** | Evaluation | Output testing & evaluation frameworks |
-| **09** | Orchestration | LangChain / LlamaIndex foundations |
-| **10** | Pipelines | Ingesting unstructured data (PDFs, Docs) |
-| **11** | Deployment | Dockerized AI services & CI/CD |
-| **12** | Final Build | “Chat with My Docs” backend API |
+| 01 | Extraction | Structured outputs, JSON schemas, validation |
+| 02 | Agency | Function calling and tool execution |
+| 03 | Memory | Embeddings and vector database setup |
+| 04 | Retrieval | RAG (Retrieval-Augmented Generation) |
+| 05 | Optimization | Prompt design and context management |
+| 06 | Streaming | Token streaming and WebSocket handling |
+| 07 | AWS Integration | Bedrock migration and Boto3 |
+| 08 | Evaluation | Output testing and evaluation frameworks |
+| 09 | Orchestration | LangChain and LlamaIndex foundations |
+| 10 | Pipelines | Ingesting unstructured data (PDFs, Docs) |
+| 11 | Deployment | Dockerized AI services and CI/CD |
+| 12 | Final Build | Chat-with-My-Docs backend API |
 
 ---
-
-## 📓 Engineering Logs
-
-### Day 01 — The Structured Bridge
-
-**Problem**  
-Transforming unstructured human input into reliable machine-readable data.
-
-**Key Learning**  
-Schema-constrained outputs dramatically reduce downstream complexity.
-
-**Implementation**
-- Enforced structured responses using JSON schemas
-- Eliminated fragile regex-based parsing
-
----
-
-## 🚀 Setup & Execution
-
-### Prerequisites
-- Python 3.11+
-- Docker
-- AWS credentials (for Bedrock phases)
-
-### Local Setup
-
-```bash
-# Clone repository
-git clone <repo-url>
-cd cosmonyx-ai-core
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
